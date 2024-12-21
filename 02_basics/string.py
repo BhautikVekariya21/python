@@ -1,4 +1,3 @@
-
 # String examples and methods demonstration
 
 # Basic string creation
@@ -48,6 +47,11 @@ print("Using f-string:", f"{str1} {str2}")
 # String multiplication
 print("\nString Multiplication:")
 print("Repeat string 3 times:", str1 * 3)
+
+# Raw string creation
+raw_string = r"This is a raw string with \n and \t"
+print("\nRaw string:", raw_string)
+
 # String dicing (taking characters at specific intervals)
 print("\nString Dicing:")
 print("Every third character:", my_string[::3])
@@ -56,6 +60,7 @@ print("Every second character in first half:", my_string[:len(my_string)//2:2])
 print("Every third character in last half:", my_string[len(my_string)//2::3])
 print("Characters from index 5 to 15 with step 2:", my_string[5:15:2])
 print("Reverse string with step 3:", my_string[::-3])
+
 # String formatting
 name = "Alice"
 age = 25
