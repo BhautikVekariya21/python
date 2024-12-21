@@ -1,5 +1,4 @@
 
-```markdown
 # Python Learning Repository
 
 A beginner-friendly guide to learning Python programming.
