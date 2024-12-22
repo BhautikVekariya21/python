@@ -8,6 +8,7 @@ A beginner-friendly guide to learning Python programming.
 - [Basic Concepts](#basic-concepts)
 - [Data Structures](#data-structures)
 - [Control Flow](#control-flow)
+- [Conditional Statements](#conditional-statements)
 - [Functions](#functions)
 - [Object-Oriented Programming](#object-oriented-programming)
 - [Projects](#projects)
@@ -94,9 +95,28 @@ print("Hello, World!")
 │   ├── 09_solution.py
 │   └── README.md
 │
-├── 04_advanced
-│   ├── advanced_topic1.py
-│   ├── advanced_topic2.py
+├── 04_loops
+│   ├── 01_solution.py
+│   ├── 02_solution.py
+│   ├── 03_solution.py
+│   ├── 04_solution.py
+│   ├── 05_solution.py
+│   ├── 06_solution.py
+│   ├── 07_solution.py
+│   ├── 08_solution.py
+│   ├── 09_solution.py
+│   └── README.md
+│
+├── 05_functions
+│   ├── 01_solution.py
+│   ├── 02_solution.py
+│   ├── 03_solution.py
+│   ├── 04_solution.py
+│   ├── 05_solution.py
+│   ├── 06_solution.py
+│   ├── 07_solution.py
+│   ├── 08_solution.py
+│   ├── 09_solution.py
 │   └── README.md
 │
 └── README.md
@@ -128,7 +148,26 @@ print("Hello, World!")
   - `09_solution.py`: Script to check if a given year is a leap year.
   - `README.md`: Documentation for the conditional directory.
 
-- **04_advanced**: Contains scripts demonstrating advanced Python topics.
-  - `advanced_topic1.py`: Placeholder for an advanced topic script.
-  - `advanced_topic2.py`: Placeholder for another advanced topic script.
-  - `README.md`: Documentation for the advanced directory.
+- **04_loops**: Contains scripts demonstrating various loop constructs and their applications.
+  - `01_solution.py`: Script to count positive numbers in a list.
+  - `02_solution.py`: Script to calculate the sum of even numbers up to a given number.
+  - `03_solution.py`: Script to print a multiplication table, skipping the fifth iteration.
+  - `04_solution.py`: Script to reverse a string using different methods.
+  - `05_solution.py`: Script to find the first non-repeated character in a string.
+  - `06_solution.py`: Script to calculate the factorial of a number using loops.
+  - `07_solution.py`: Script to get a valid number within a specified range from the user.
+  - `08_solution.py`: Script to check if a number is prime.
+  - `09_solution.py`: Script to check if all elements in a list are unique.
+  - `README.md`: Documentation for the loops directory.
+
+- **05_functions**: Contains scripts demonstrating various function constructs and their applications.
+  - `01_solution.py`: Script to define and call a simple function.
+  - `02_solution.py`: Script to demonstrate function arguments and parameters.
+  - `03_solution.py`: Script to demonstrate return values from functions.
+  - `04_solution.py`: Script to demonstrate lambda functions.
+  - `05_solution.py`: Script to demonstrate nested functions.
+  - `06_solution.py`: Script to demonstrate higher-order functions.
+  - `07_solution.py`: Script to demonstrate recursion.
+  - `08_solution.py`: Script to demonstrate function decorators.
+  - `09_solution.py`: Script to demonstrate anonymous functions.
+  - `README.md`: Documentation for the functions directory.
