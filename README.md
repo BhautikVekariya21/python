@@ -11,6 +11,7 @@ A beginner-friendly guide to learning Python programming.
 - [Conditional Statements](#conditional-statements)
 - [Functions](#functions)
 - [Object-Oriented Programming](#object-oriented-programming)
+- [Scopes](#scopes)
 - [Projects](#projects)
 - [Directory Structure](#directory-structure)
 
@@ -60,6 +61,11 @@ print("Hello, World!")
 - Inheritance
 - Polymorphism
 - Encapsulation
+
+## Scopes
+- Global Scope
+- Lexical Scope
+- Closures
 
 ## Projects
 - Simple Calculator
@@ -119,6 +125,46 @@ print("Hello, World!")
 │   ├── 09_solution.py
 │   └── README.md
 │
+├── 06_scopes
+│   ├── global_scope_lexical_scope_closure.py
+│   └── README.md
+│
+├── 07_oops
+│   ├── 01_oop.py
+│   ├── 02_oop.py
+│   ├── 03_oop.py
+│   ├── 04_oop.py
+│   └── README.md
+│
+├── 08_decorator
+│   ├── 01_timing_decorator.py
+│   ├── 02_debug_decorator.py
+│   ├── 03_cache_decorator.py
+│   └── README.md
+│
+├── 09_error_handling
+│   ├── 01_try_except.py
+│   ├── 02_custom_exceptions.py
+│   ├── 03_finally.py
+│   └── README.md
+│
+├── 10_sqlite3
+│   ├── 01_video_manager.py
+│   └── README.md
+│
+├── 11_mongodb
+│   ├── 01_vmanager.py
+│   └── README.md
+│
+├── 12_api_handling
+│   ├── 01_api_handle.py
+│   └── README.md
+│
+├── 13_jupyter_notebook
+│   ├── 01_intro.ipynb
+│   ├── 02_data_analysis.ipynb
+│   └── README.md
+│
 └── README.md
 ```
 
@@ -171,3 +217,47 @@ print("Hello, World!")
   - `08_solution.py`: Script to demonstrate function decorators.
   - `09_solution.py`: Script to demonstrate anonymous functions.
   - `README.md`: Documentation for the functions directory.
+
+- **06_scopes**: Contains scripts demonstrating various scope concepts in Python.
+  - `global_scope_lexical_scope_closure.py`: Script demonstrating global scope, lexical scope, and closures.
+  - `README.md`: Documentation for the scopes directory.
+
+- **07_oops**: Contains scripts demonstrating various object-oriented programming concepts.
+  - `01_oop.py`: Script demonstrating basic class and object concepts, including `self` and `cls`.
+  - `02_oop.py`: Script demonstrating class methods, inheritance, and encapsulation.
+  - `03_oop.py`: Script demonstrating polymorphism, method overriding, and method overloading.
+  - `04_oop.py`: Script demonstrating advanced OOP concepts like multiple inheritance and static methods.
+  - `README.md`: Documentation for the OOP directory.
+
+- **08_decorator**: Contains scripts demonstrating various decorator concepts.
+  - `01_timing_decorator.py`: Script demonstrating a timing decorator.
+  - `02_debug_decorator.py`: Script demonstrating a debug decorator.
+  - `03_cache_decorator.py`: Script demonstrating a cache decorator.
+  - `README.md`: Documentation for the decorator directory.
+
+- **09_error_handling**: Contains scripts demonstrating various error handling concepts.
+  - `01_try_except.py`: Script demonstrating try-except blocks.
+  - `02_custom_exceptions.py`: Script demonstrating custom exceptions.
+  - `03_finally.py`: Script demonstrating the use of finally block.
+  - `README.md`: Documentation for the error handling directory.
+
+- **10_sqlite3**: Contains scripts demonstrating SQLite3 database operations.
+  - `01_video_manager.py`: Script to manage YouTube videos using SQLite3 database. It includes functionalities to list, add, update, delete, search, and sort videos.
+  - `README.md`: Documentation for the SQLite3 directory.
+
+- **11_mongodb**: Contains scripts demonstrating MongoDB database operations.
+  - `01_vmanager.py`: Script to manage YouTube videos using MongoDB database. It includes functionalities to list, add, update, delete, and search videos.
+  - `README.md`: Documentation for the MongoDB directory.
+
+- **12_api_handling**: Contains scripts demonstrating API handling.
+  - `01_api_handle.py`: Script to interact with various APIs to fetch random user data, jokes, weather information, cryptocurrency prices, trivia questions, and health tips.
+  - `README.md`: Documentation for the API handling directory.
+
+- **13_jupyter_notebook**: Contains Jupyter Notebook files demonstrating various data analysis and visualization techniques.
+  - `01_intro.ipynb`: Introduction to Jupyter Notebook.
+  - `02_data_analysis.ipynb`: Data analysis and visualization examples.
+  - `README.md`: Documentation for the Jupyter Notebook directory.
+
+
+## Courtesy
+This repository is inspired by tutorials from [Chai Aur Code](https://www.youtube.com/@chaiaurcode).
